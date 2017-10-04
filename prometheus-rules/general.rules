@@ -1,0 +1,8 @@
+ALERT ProcessDown
+  IF up == 0
+  FOR 5s
+  LABELS { severity = "critical" }
+  ANNOTATIONS {
+    summary = "Instance {{ $labels.instance }} down",
+    description = "{{ $labels.instance }} of job {{ $labels.job }}"
+  }

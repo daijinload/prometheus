@@ -1,0 +1,6 @@
+*.retry
+/logs/
+/data/
+/tmp/
+/console_libraries/
+/consoles/
