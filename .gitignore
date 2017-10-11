@@ -4,3 +4,7 @@
 /tmp/
 /console_libraries/
 /consoles/
+alertmanager
+mysqld_exporter
+node_exporter
+prometheus
