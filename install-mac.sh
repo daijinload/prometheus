@@ -20,6 +20,7 @@ echo 'e24cc24da54f05d84fe3ec7b2f6e6b93cc62850dd37ab15a91cc6c036efbea69  mysqld_e
 tar xvfz mysqld_exporter-*.tar.gz
 
 mv ./prometheus-1.7.2.darwin-amd64/console_libraries ../
+mv ./prometheus-1.7.2.darwin-amd64/consoles/index.html.example ./prometheus-1.7.2.darwin-amd64/consoles/index.html
 mv ./prometheus-1.7.2.darwin-amd64/consoles ../
 mv ./prometheus-1.7.2.darwin-amd64/prometheus ../
 
