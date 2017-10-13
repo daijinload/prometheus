@@ -10,8 +10,9 @@ route:
   group_wait: 3s
   group_interval: 5s
   repeat_interval: 1m
- 
+
 receivers:
 - name: 'hoge-ml'
   email_configs:
   - to: 'hoge@example.com'
+    send_resolved: true
